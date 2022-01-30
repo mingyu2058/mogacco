@@ -1,0 +1,129 @@
+
+.middle-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+.middle-title{
+    display: flex;
+    font-weight: bold;
+    flex-direction: row;
+    
+    font-family: 'NeoDunggeunmo';
+}
+.middle-title-name{
+    flex: 1;
+}
+.middle-title-url{
+    text-align: right;
+    flex: 1;
+}
+
+.middle-contents{
+    display: flex;
+    flex-direction: column;
+
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    width: 100%;
+    height:100%;
+    
+    font-family: 'KOTRA_BOLD-Bold';
+}
+.updated-news{
+    flex: 0.5;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.updated-news-title{
+    margin-top:10px;
+    color: steelblue;
+}
+.updated-news-contents{
+    flex: 0.5;
+    display: flex;
+    
+}
+.updated-news-contents-left{
+    flex: 1;
+}
+.updated-news-contents-right{
+    flex: 1;
+}
+
+.news-title{
+    margin-right: 5px;
+}
+
+.photo{
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 0.5px;
+  margin-right: 4px;
+}
+
+.board{
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  margin-right: 4px;
+  padding: 0.5px;
+}
+
+.updated-news-contents-right-o, .updated-news-contents-right-b{
+    display: flex;
+}
+
+
+.updated-news-contents-right-o-1, .updated-news-contents-right-o-2, .updated-news-contents-right-b-1, .updated-news-contents-right-b-2{
+    flex: 1;
+}
+
+.miniroom{
+    margin-left: 10px;
+    margin-top:10px;
+    margin-right: 10px;
+    color: steelblue;
+    flex: 0.5;
+}
+
+.img-mini{
+    width: 80%;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+
+.right-container {
+    display: flex;
+    flex: 0.15;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+
+.right-menu {
+    position: relative;
+    top: 50px;
+    color: white;
+}
+
+
+.right-menu div {
+    background: #3a81a3;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #5c77b6;
+    border-radius: 0 5px 5px 0;
+}
+
+
+.right-menu div:hover {
+    background: #5c77b6;
+}

@@ -1,0 +1,91 @@
+.calendar{
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    margin:10px;
+    flex-wrap:wrap;
+}
+
+.mainday
+{
+  flex: 0.1;
+  color: powderblue;
+  margin: 8px 5px 8px 10px;
+  text-align: center;
+}
+.subday
+{
+  flex: 0.9;
+  color: rgb(78, 78, 78);
+  margin: 8px 5px 8px 10px;
+}
+.saturday
+{
+  color: blue;
+}
+.sunday
+{
+  color: red;
+}
+
+
+.diary{
+    margin:10px;
+    overflow: auto;
+}
+
+.diary_box{
+    height: 100%;
+    
+}
+.diary_title{
+    color:rgb(72,137,197);
+}
+
+.diary_contents{
+    
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    font-family: 'NeoDunggeunmo';
+    margin-top:10px;
+    text-align: center;
+}
+.diary_content{
+    margin-top: 10px;
+}
+
+.sercet{ 
+    color: white;
+    background-color: white;
+    border: 0;
+    
+  border: 1px solid white;
+    text-align: center;
+}
+.sercet:hover{
+    
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+
+}
+
+
+button{
+    color: white;
+    background-color:white;
+    border: 1px solid white;
+    font-family: 'NeoDunggeunmo';
+}
+
+.icon{
+    font-size: 20px;
+    margin: 5px 15px 5px 0px;
+}
+
+button:hover{
+    color:black;
+    background-color: rgb(132, 184, 226);
+    border:1px solid black;
+}

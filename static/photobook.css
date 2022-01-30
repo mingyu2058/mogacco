@@ -1,0 +1,18 @@
+.photo-list{
+    font-family: 'NeoDunggeunmo';
+    text-align: center;
+    overflow: auto;
+    place-self: center;
+
+}
+.photo{
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-family: 'NeoDunggeunmo';
+    width: 350px;
+    height: 250px;
+}
+.img-size{
+    width: 100%;
+    height: 100%;
+}
